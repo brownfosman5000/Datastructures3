@@ -4,9 +4,6 @@ Best implementation is using linked lists as a queue
 	Oldest shipments are released first 
 
 
-Separate Functions
-		when we come to a sales record
-
 widgetProcessing(pass in the currentnode)
 	int counter = 0;
 
