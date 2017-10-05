@@ -1,0 +1,68 @@
+Best implementation is using linked lists as a queue
+	In the info field-int quantity,double price,int discount(for promotions)
+	Pointer to next node;
+	Oldest shipments are released first 
+
+
+Separate Functions
+		when we come to a sales record
+
+widgetProcessing(pass in the currentnode)
+	int counter = 0;
+
+	while(fin)
+		read in string val;
+		
+		if val == r 
+			rP()
+		if val == s
+			sP(counter) send a reference of counter to sp to keep track of promotional discounts
+		if val == p
+			pP()
+			
+
+
+
+
+SalesProcessing()
+	amofwid for amount of widgets
+	profwid for price of widgets
+	Read in sales info into vars
+	Print sales message
+	
+	//We have to sell widgets that were received first
+	while fifo node.quanity is less than the amofwid
+		if fifonode.quantity is not 0	
+			add markup for price... .30 
+			print amofwid at fifonice.price
+			amofwid = amofwid - fifonode.quantity 
+			fifonode.quantity = 0;
+			go to the next node
+	     	else
+			remainer of xxx widgets not available
+			break		
+	if fifo node is greater than amofwid
+		add markup for price ... .30 
+		fifonode.quantity = fifonode.quantity - amofwid
+		print amofwid at fifonode.price
+
+
+
+	if a promotion message was printed
+		//call function promotion gonna write here
+		counter++
+		price * (promotion/100)
+		price -= this value above
+		if counter > 2
+			counter = 0;
+
+		
+ReceiptProcessing()
+	Read in and store our #widgets and price in the linked list node
+	Print in with price and amount of widgets
+
+PromotionProcessing()
+	print promotion message
+	pretty much return discount
+	else
+		return 0 for no price
